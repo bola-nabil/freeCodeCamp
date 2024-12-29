@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #eee;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 15px;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eee;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0 15px;
+  min-height: 75px;
+}
+
+#header-img {
+  width: 220px;
+  height: 70px;
+}
+
+
+
+#nav-bar ul{
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+
+
+.nav-link {
+  color: #333;
+  font-size: 18px;
+}
+
+.top-page {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.top-page h1 {
+  font-size: 27px;
+}
+
+@media (max-width: 600px) {
+  #header-img {
+    width: 160px;
+  }
+  #nav-bar ul {
+    gap: 10px;
+  }
+  .top-page h1 {
+    font-size: 22px;
+  }
+}
+
+#form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#email {
+  height: 40px;
+  width: 250px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+#submit {
+  border: none;
+  background-color: #f1c40f;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #f1a60f;
+}
+
+.features {
+  margin: 80px 0;
+}
+
+.features .feature-boxs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+.features .feature-box {
+  display: flex;
+  gap: 20px;
+}
+
+.feature-box .feature-icon {
+  color: #f1a60f;
+  padding-right: 10px;
+}
+
+.feature-box h2 {
+  font-size: 25px;
+}
+
+.feature-box p {
+  font-size: 18px;
+}
+
+.learing {
+  margin: 80px 0;
+}
+
+.video-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#video {
+  height: 250px;
+  width: 400px;
+}
+
+.pricing {
+  margin: 80px 0;
+}
+
+.pricing .pricing-boxs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+.pricing-boxs .pricing-box {
+  border: 1px solid #333;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.pricing-box .pricing-title {
+  background-color: red;
+  width: 100%;
+  padding: 5px 0;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.pricing-box .price {
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+
+.pricing-box .pricing-content p{
+  padding: 8px 0;
+  font-size: 18px;
+}
+
+.pricing-box a {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #f1c40f;
+  padding: 5px 10px;
+  font-size: 20px;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  min-height: 45px;
+}
+
+footer p {
+  font-size: 18px;
+  font-weight: bold;
+}
