@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0d0d23;
+  color: #fff;
+}
+
+.contanier {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 250px;
+  height: 100px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+.box {
+  background-color: #fff;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 20px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-box label {
+  font-size: 18px;
+}
+
+.search {
+  margin: 20px 0;
+  display: flex;
+  gap: 5px;
+}
+
+.search input {
+  height: 40px;
+  padding: 0 15px;
+}
+
+.search input:focus {
+  border: 3px solid blue;
+  outline: none;
+}
+
+.search button {
+  background-color: #7f21ab;
+  border: none;
+  color: #fff;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.data {
+  background-color: teal;
+  padding: 20px 10px;
+}
+
+.data .data-title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.data h3 {
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.data-title p {
+  font-size: 20px;
+}
+
+.data .w-h {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.data img {
+  width: 300px;
+  height: 200px;
+}
+
+.type {
+  padding: 10px;
+  text-align: center;
+  background-color: orangered;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-right: 10px;
+}
+
+.infs table {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.infs table th,
+.infs table td {
+  background-color: #7f21ab;
+}
+
+.infs table .one {
+  text-align: center;
+  padding: 15px 100px;
+}
+
+.infs table .two {
+  padding: 10px 60px;
+}
